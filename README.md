@@ -22,6 +22,6 @@ The site was created using HTML, CSS and Javascript as the primary languages on 
 ## Support and contact details
 If you experience issues that are related to my site and are hindering you from accessing this material, then please contact me @ mutahijames0@gmail.com
 ### Live Site
- To view this site access 
+ To view this site access https://jamesmutahi.github.io/Triangle-Tracker/
 ### License
 The MIT licence Copyright (c)2019 **James Mutahi**
