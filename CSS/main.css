@@ -2,3 +2,7 @@
   width: 70%;
   align-content: center;
 }
+body{
+  background-image: url(../Images/Triangle.jpg);
+  background-size: 100%;
+}
