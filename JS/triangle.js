@@ -53,5 +53,10 @@ function myFunction() {
     text = " a Scalene";
   }
 
+  //condition for error
+  else {
+    text = " error";
+  }
+
   alert("The values you entered are:" + " [" + array.join() + "] " + " This is" + text);
 }
