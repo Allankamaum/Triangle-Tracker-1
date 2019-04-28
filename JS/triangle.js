@@ -15,5 +15,15 @@ function myFunction() {
     text = " not a triangle. A triangle must have a length greater than 0."
   }
 
+  //condition for not a triangle
+  else if (
+    (L1 + L2 <= L3 && L2 + L1 <= L3) ||
+    (L1 + L3 <= L2 && L3 + L1 <= L2) ||
+    (L2 + L3 <= L1 && L3 + L2 <= L1)
+  ) {
+    text = " Not a Triangle";
+  }
+
+
   alert("The values you entered are:" + " [" + array.join() + "] " + " This is" + text);
 }
