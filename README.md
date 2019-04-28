@@ -8,6 +8,14 @@ This program will accept 3 numbers (the lengths of the triangle) in the given in
 3. condition for equilateral
 4. condition for isosceles
 5. condition for scalene
+## Behaviour Driven Development(BDD)
+Behaviour | Input | Output
+------------ | ------------- | -------------
+Alert on no input | No input | Fill in fields
+Check lengths for not <=0 | 0 | Lenghths to be greater than 0
+Check for equilateral | 2,2,2 | Equilateral
+Check for Isosceles | 1,2,2 | Isosceles
+Check for Scalene | 2,3,4 | Scalene
 
 ## Setup/Installation Requirements
 * Fill in the form on each and every input field; the field will turn green on valid entry
