@@ -39,6 +39,12 @@ function myFunction() {
     text = " an Equilateral.";
   }
 
+  //condition for isosceles
+  else if (
+    L1 === L2 || L2 === L3 || L3 === L1
+  ) {
+    text = " an Isosceles.";
+  }
 
   alert("The values you entered are:" + " [" + array.join() + "] " + " This is" + text);
 }
