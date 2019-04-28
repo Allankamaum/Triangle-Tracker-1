@@ -1,8 +1,18 @@
 function myFunction() {
 
   // Validate form for entry
-  var x = document.forms["myForm"]["fname"].value;
+  var x = document.forms["myForm"]["L1"].value;
   if (x == "") {
+    alert("Fields must be filled out");
+    return false;
+  }
+  var y = document.forms["myForm"]["L2"].value;
+  if (y == "") {
+    alert("Fields must be filled out");
+    return false;
+  }
+  var z = document.forms["myForm"]["L3"].value;
+  if (z == "") {
     alert("Fields must be filled out");
     return false;
   }
