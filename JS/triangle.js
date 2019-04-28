@@ -68,5 +68,5 @@ function myFunction() {
     text = " error";
   }
 
-  alert("The values you entered are:" + " [" + array.join() + "] " + " This is" + text);
+  alert("The values you entered are:" + " [" + array.join() + "] " + "\nThis is" + text);
 }
