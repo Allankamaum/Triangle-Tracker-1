@@ -10,18 +10,40 @@
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
+
   <!-- Custom CSS -->
-    <link rel="stylesheet" href="../triangle-tracker/CSS/main.css">
-  
+  <link rel="stylesheet" href="../triangle-tracker/CSS/main.css">
+
   <title>Triangle&middot;</title>
 </head>
 
 <body>
 
+  <div class="container">
+        <form class="was-validated">
+          <div class="mb-3">
+            <label for="validationTextarea">Length 1:</label>
+            <input id="L1" type="number" class="form-control is-invalid" placeholder="Enter Length 1 here: " required>
+          </div>
+          <div class="mb-3">
+            <label for="validationTextarea">Length 2:</label>
+            <input id="L2" type="number" class="form-control is-invalid" placeholder="Enter Length 2 here: " required>
+          </div>
+          <div class="mb-3" class="col-auto">
+            <label for="validationTextarea">Length 3:</label>
+            <input id="L3" type="number" class="form-control is-invalid" placeholder="Enter Length 3 here: " required>
+          </div>
+          <br>
+          <input class="btn btn-primary" type="submit" value="Evaluate" onclick="myFunction()">
+        </form>
+      </div>
+    </div>
+  </div>
 
-
+  <!-- Custom Javascript -->
   <script src="../triangle-tracker/JS/triangle.js"></script>
+
+  <!-- Bootstrap Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
