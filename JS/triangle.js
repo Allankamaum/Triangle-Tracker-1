@@ -1,4 +1,12 @@
 function myFunction() {
+
+  // Validate form for entry
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Fields must be filled out");
+    return false;
+  }
+
   // Get input 
   var L1 = parseInt(document.getElementById("L1").value);
   var L2 = parseInt(document.getElementById("L2").value);
