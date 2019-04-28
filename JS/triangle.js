@@ -46,5 +46,12 @@ function myFunction() {
     text = " an Isosceles.";
   }
 
+  //condition for scalene
+  else if (
+    L1 !== L2 && L1 !== L3 && L2 !== L3
+  ) {
+    text = " a Scalene";
+  }
+
   alert("The values you entered are:" + " [" + array.join() + "] " + " This is" + text);
 }
