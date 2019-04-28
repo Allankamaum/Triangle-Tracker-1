@@ -15,7 +15,7 @@ This program will accept 3 numbers (the lengths of the triangle) in the given in
 * An alert message will appear with an evaluation of your inputs
 
 There are no extra dependencies to be installed or databases and no other code that may be crucial to access this material.
-![Triangle Tracker Image](https://JamesMutahi.github.com/images/croppedTriangle.png)
+![Triangle Tracker Image](https://github.com/JamesMutahi/Triangle-Tracker/blob/master/Images/croppedTriangle.png)
 ## Known Bugs
 There are no known bugs. In case you do encounter any, please contact us on the deatils below.
 ## Technologies Used
